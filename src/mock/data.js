@@ -85,6 +85,11 @@ export const footerData = {
       name: 'github',
       url: 'https://github.com/abhishekalekar',
     },
+    {
+      id:nanoid(),
+      name:'mastodom',
+      url:'https://techhub.social/@abhishekalekar',
+    },
   ],
 };
 
