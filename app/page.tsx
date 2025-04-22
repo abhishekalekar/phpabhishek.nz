@@ -76,7 +76,7 @@ export default function Home() {
               </div>
               <div className="flex items-center justify-center">
                 <Image
-                  src="/images/hero-image.jpg" // Updated path to your actual image
+                  src="/images/hero/salesforce-dashboard.jpg" // Updated path using new folder structure
                   alt="Salesforce Dashboard"
                   width={600}
                   height={350}
@@ -185,7 +185,7 @@ export default function Home() {
               </div>
               <div className="flex items-center justify-center">
                 <Image
-                  src="/images/team-photo.jpg" // Updated path to your actual image
+                  src="/images/about/team-photo.jpg" // Updated path using new folder structure
                   alt="Our Team"
                   width={600}
                   height={400}
@@ -264,7 +264,7 @@ export default function Home() {
             <div className="mx-auto grid max-w-5xl grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3 mt-12">
               <div className="overflow-hidden rounded-lg shadow-lg">
                 <Image
-                  src="/images/case-study-1.jpg" // Updated path to your actual image
+                  src="/images/case-studies/retail-analytics.jpg" // Updated path using new folder structure
                   alt="Case Study 1"
                   width={400}
                   height={250}
@@ -277,7 +277,7 @@ export default function Home() {
               </div>
               <div className="overflow-hidden rounded-lg shadow-lg">
                 <Image
-                  src="/placeholder.svg?height=250&width=400"
+                  src="/images/case-studies/healthcare-portal.jpg" // Updated path using new folder structure
                   alt="Case Study 2"
                   width={400}
                   height={250}
@@ -290,7 +290,7 @@ export default function Home() {
               </div>
               <div className="overflow-hidden rounded-lg shadow-lg">
                 <Image
-                  src="/placeholder.svg?height=250&width=400"
+                  src="/images/case-studies/financial-crm.jpg" // Updated path using new folder structure
                   alt="Case Study 3"
                   width={400}
                   height={250}
@@ -334,7 +334,7 @@ export default function Home() {
                 </div>
                 <div className="mt-4">
                   <Image
-                    src="/images/office-location.jpg" // Updated path to your actual image
+                    src="/images/contact/office-location.jpg" // Updated path using new folder structure
                     alt="Office Location"
                     width={500}
                     height={300}
