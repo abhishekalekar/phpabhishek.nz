@@ -77,7 +77,7 @@ export default function Home() {
               </div>
               <div className="flex items-center justify-center">
                 <Image
-                  src="/images/hero/salesforce-dashboard.jpg" // Updated path using new folder structure
+                  src="/images/hero/salesforce-dashboard.jpg"
                   alt="Salesforce Dashboard"
                   width={600}
                   height={350}
@@ -186,7 +186,7 @@ export default function Home() {
               </div>
               <div className="flex items-center justify-center">
                 <Image
-                  src="/images/about/team-photo.jpg" // Updated path using new folder structure
+                  src="/images/about/team-photo.jpg"
                   alt="Our Team"
                   width={600}
                   height={400}
@@ -265,8 +265,8 @@ export default function Home() {
             <div className="mx-auto grid max-w-5xl grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3 mt-12">
               <div className="overflow-hidden rounded-lg shadow-lg">
                 <Image
-                  src="/images/case-studies/retail-analytics.jpg" // Updated path using new folder structure
-                  alt="Case Study 1"
+                  src="/images/case-studies/retail-analytics.jpg"
+                  alt="Retail Analytics Dashboard"
                   width={400}
                   height={250}
                   className="w-full h-48 object-cover"
@@ -278,8 +278,8 @@ export default function Home() {
               </div>
               <div className="overflow-hidden rounded-lg shadow-lg">
                 <Image
-                  src="/images/case-studies/healthcare-portal.jpg" // Updated path using new folder structure
-                  alt="Case Study 2"
+                  src="/images/case-studies/healthcare-portal.jpg"
+                  alt="Healthcare Provider Portal"
                   width={400}
                   height={250}
                   className="w-full h-48 object-cover"
@@ -291,8 +291,8 @@ export default function Home() {
               </div>
               <div className="overflow-hidden rounded-lg shadow-lg">
                 <Image
-                  src="/images/case-studies/financial-crm.jpg" // Updated path using new folder structure
-                  alt="Case Study 3"
+                  src="/images/case-studies/financial-crm.jpg"
+                  alt="Financial Services CRM"
                   width={400}
                   height={250}
                   className="w-full h-48 object-cover"
@@ -335,8 +335,8 @@ export default function Home() {
                 </div>
                 <div className="mt-4">
                   <Image
-                    src="/images/contact/office-location.jpg" // Updated path using new folder structure
-                    alt="Office Location"
+                    src="/images/contact/office-location.jpg"
+                    alt="Office Location in Wellington"
                     width={500}
                     height={300}
                     className="rounded-lg object-cover shadow-lg"
