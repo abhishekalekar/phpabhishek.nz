@@ -35,7 +35,7 @@ export function ContactForm() {
   }
 
   return (
-    <div className="flex flex-col space-y-4 rounded-lg border bg-background p-6">
+    <>
       {formState.message && (
         <div
           className={`p-4 mb-4 rounded-md ${formState.success ? "bg-green-50 text-green-700 border border-green-200" : "bg-red-50 text-red-700 border border-red-200"}`}
@@ -131,6 +131,6 @@ export function ContactForm() {
         </div>
         <SubmitButton />
       </form>
-    </div>
+    </>
   )
 }
